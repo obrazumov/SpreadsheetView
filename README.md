@@ -49,6 +49,27 @@ SpreadsheetView is written in Swift 5. Compatible with iOS 9.0+
 
 ## Installation
 
+### Swift Package Manager
+SpreadsheetView is available through [Swift Package Manager](https://www.swift.org/package-manager/).
+
+In Xcode, choose **File → Add Package Dependencies…** and enter the repository URL:
+
+```
+https://github.com/obrazumov/SpreadsheetView.git
+```
+
+Or add it to the `dependencies` of your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/obrazumov/SpreadsheetView.git", branch: "master")
+```
+
+and add `SpreadsheetView` to your target's dependencies:
+
+```swift
+.product(name: "SpreadsheetView", package: "SpreadsheetView")
+```
+
 ### CocoaPods
 SpreadsheetView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
